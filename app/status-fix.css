@@ -1,0 +1,3 @@
+/* Namespaced status classes prevent global-style collisions and keep pills compact. */
+.status{display:inline-flex!important;width:max-content!important;height:auto!important;min-height:0!important;align-items:center;align-self:center;line-height:1.2!important;flex:none!important}
+.status-review_required{background:#fff0d8;color:#9c5d14}.status-in_review{background:#e7f1ff;color:#346da4}.status-new{background:#f0f2f1;color:#60716a}.status-approved{background:#dff5e5;color:#23713c}.status-rejected{background:#fde9e6;color:#a7473d}.status-escalated{background:#f3e8ff;color:#79479d}

@@ -1,0 +1,6 @@
+/* Application shell: each column owns its own scroll area. */
+html,body{height:100%;overflow:hidden}
+body>main{height:100dvh;min-height:0;overflow:hidden}
+body>main>aside{height:100dvh;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+body>main>.workspace{height:100dvh;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+@media(max-width:850px){html,body{overflow:auto}body>main{height:auto;min-height:100dvh;overflow:visible}body>main>.workspace{height:auto;min-height:100dvh;overflow:visible}}
